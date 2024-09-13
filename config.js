@@ -1,1 +1,1 @@
-export const { PORT = 3000 } = process.env;
+export const { PORT = 3000, SECRET_JWT_KEY = "" } = process.env;
